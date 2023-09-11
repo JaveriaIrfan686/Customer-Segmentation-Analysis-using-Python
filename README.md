@@ -22,3 +22,9 @@ By using number of optimized cluster, analyzed from the graph of elbow method th
        Customers in this cluster have high annual income but low spending scores, possibly representing frugal customers.
   * ## Cluster 5 (Center [26.3, 20.9]):
        Customers in this cluster have low annual income and low spending scores, likely representing budget-conscious shoppers.
+    # Performance
+      I checked the performance by using 2 methods that are:
+       ## Silhouette Score
+           Its score is 0.55, which generally considered a reasonable and acceptable score for clustering. This shows on average, the data points within each cluster are somewhat closer to each other than to data points in neighboring clusters. This suggests that the clusters have moderate cohesion (data points within clusters are similar) and separation (clusters are distinct from each other).
+      ## Davies-Bouldin Index (DBI)
+          Its score is 0.57, which indicates that my clusters are relatively well-separated and distinguishable. The fact that the index is significantly lower than 1 suggests that the clusters have a reasonable degree of separation. It demonstrates the ability to effectively analyze and structure our data. It suggests that we've captured meaningful relationships between data points while creating the clusters.
