@@ -11,14 +11,14 @@ I used elbow method to find out the best number of clusters. Point to be noted h
 will be highlty optimized.
 
 # K mean clustering
-By using number of optimized cluster, analyzed from the graph of elbow method that is 5. I used this to find k mean clustering and print theri centroid. Lets discuss its results:
-  * # Cluster 1 (Center [55.3, 49.5]):
+By using number of optimized cluster, analyzed from the graph of elbow method that is 5. I used this to find k mean clustering and print their centroid. Lets discuss its results:
+  * ## Cluster 1 (Center [55.3, 49.5]):
        Customers in this cluster have moderate annual income and spending scores.
-  * # Cluster 2 (Center [86.5, 82.1]):
+  * ## Cluster 2 (Center [86.5, 82.1]):
        Customers in this cluster have high annual income and high spending scores, likely representing high-value customers.
-  * # Cluster 3 (Center [25.7, 79.4]):
+  * ## Cluster 3 (Center [25.7, 79.4]):
        Customers in this cluster have low annual income but high spending scores, possibly indicating price-insensitive shoppers.
-  * # Cluster 4 (Center [88.2, 17.1]):
+  * ## Cluster 4 (Center [88.2, 17.1]):
        Customers in this cluster have high annual income but low spending scores, possibly representing frugal customers.
-  * # Cluster 5 (Center [26.3, 20.9]):
+  * ## Cluster 5 (Center [26.3, 20.9]):
        Customers in this cluster have low annual income and low spending scores, likely representing budget-conscious shoppers.
